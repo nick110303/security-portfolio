@@ -6,7 +6,7 @@ engineering work.
 
 ## 🔴 Penetration Testing
 
-**[Enterprise Network Penetration Test](./pentesting/pentest-report)**
+**[Enterprise Network Penetration Test](./pentesting/pentest-report.pdf)**
 
 A simulated full-scope penetration test of a fictional enterprise network,
 covering Active Directory exploitation, web application testing, and
@@ -17,11 +17,11 @@ post-exploitation.
   broken access control, AD misconfigurations)
 - **Tools:** Nmap, Burp Suite, Metasploit, Hydra, Impacket, ffuf
 
-➡️ [View report](./pentesting/pentest-report)
+➡️ [View report](./pentesting/pentest-report.pdf)
 
 ## 🟣 Malware Analysis
 
-**[Raccoon Info-Stealer Analysis](./malware-analysis/malware-report)**
+**[Raccoon Info-Stealer Analysis](./malware-analysis/malware-report.pdf)**
 
 Static and dynamic analysis of a Raccoon-family information stealer distributed
 as "wotsuper 2.1," including unpacking a Delphi/BobSoft-packed binary, tracing
@@ -34,7 +34,7 @@ communication via DNS.
 - **Tools:** PEStudio, x32dbg + Scylla, Process Monitor, Process Explorer,
   Regshot, Wireshark, FakeDNS, YARA
 
-➡️ [View analysis](./malware-analysis/malware-report)
+➡️ [View analysis](./malware-analysis/malware-report.pdf)
 
 ## About Me
 
