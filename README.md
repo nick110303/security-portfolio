@@ -43,4 +43,4 @@ detection engineering, log analysis, and blue team operations. My malware
 analysis work reflects that focus directly, and my pentest experience gives me
 insight into attacker behavior that I bring into building better detections.
 
-**Connect:** [LinkedIn](https://www.linkedin.com/in/nicholas-gionti/) • [Resume](#)
+**Connect:** [LinkedIn](https://www.linkedin.com/in/nicholas-gionti/)
