@@ -13,7 +13,7 @@ covering Active Directory exploitation, web application testing, and
 post-exploitation.
 
 - **Scope:** Windows & Linux systems, Active Directory, web applications
-- **Findings:** 13 total — 6 Critical, 5 High, 2 Medium (SQL injection, LFI, RCE,
+- **Findings:** 13 total - 6 Critical, 5 High, 2 Medium (SQL injection, LFI, RCE,
   broken access control, AD misconfigurations)
 - **Tools:** Nmap, Burp Suite, Metasploit, Hydra, Impacket, ffuf
 
