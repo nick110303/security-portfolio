@@ -1,8 +1,7 @@
 # Security Portfolio
 
 A collection of offensive and defensive security projects, including a full-scope
-simulated penetration test, malware analysis writeups, and SIEM-based detection
-engineering work.
+simulated penetration test, malware analysis writeups, and SIEM lab work.
 
 ## 🔴 Penetration Testing
 
@@ -28,7 +27,7 @@ as "wotsuper 2.1," including unpacking a Delphi/BobSoft-packed binary, tracing
 credential and cookie theft across multiple browsers, and identifying C2
 communication via DNS.
 
-- **Key findings:** Packed executable (BobSoft Mini Delphi), .cab-based payload
+- **Findings:** Packed executable (BobSoft Mini Delphi), .cab-based payload
   extraction, anti-VM checks via keyboard/locale APIs, credential & cookie theft,
   IP exfiltration via IPLogger, C2 domains identified via DNS/reverse DNS
 - **Tools:** PEStudio, x32dbg + Scylla, Process Monitor, Process Explorer,
