@@ -1,22 +1,24 @@
 # Security Portfolio
 
-A collection of offensive and defensive security projects, including a full-scope
-simulated penetration test, malware analysis writeups, and SIEM lab work.
+A collection of defensive and offensive security projects, including SOC alert
+investigations, malware analysis writeups, and a full-scope simulated penetration
+test.
 
-## 🔴 Penetration Testing
+## 🔵 SOC Case Reports
 
-**[Enterprise Network Penetration Test](./pentesting/pentest-report.pdf)**
+Alert investigations from the TryHackMe SOC Simulator, written up as case reports
+in a consistent format: summary, evidence, timeline, IOCs, assessment, and actions
+taken. Each one covers how the alert was triaged, what the logs and threat intel
+showed, and why it was closed or escalated.
 
-A simulated full-scope penetration test of a fictional enterprise network,
-covering Active Directory exploitation, web application testing, and
-post-exploitation.
+- **Focus:** Alert triage, log analysis, threat intel lookups, and incident documentation
+- **Tools:** Splunk, TryDetectThis, TryHackMe SOC Simulator
 
-- **Scope:** Windows & Linux systems, Active Directory, web applications
-- **Findings:** 13 total - 6 Critical, 5 High, 2 Medium (SQL injection, LFI, RCE,
-  broken access control, AD misconfigurations)
-- **Tools:** Nmap, Burp Suite, Metasploit, Hydra, Impacket, ffuf
+| Alert | Type | Verdict | Report |
+|---|---|---|---|
+| 8815 | Phishing (Amazon impersonation) | True Positive | [View report](./soc-case-reports/phishing/SOC-Simulator-Phishing-Alert-8815.pdf) |
 
-➡️ [View report](./pentesting/pentest-report.pdf)
+*New investigations are added as I complete them.*
 
 ## 🟣 Malware Analysis
 
@@ -35,11 +37,28 @@ communication via DNS.
 
 ➡️ [View analysis](./malware-analysis/malware-report.pdf)
 
+## 🔴 Penetration Testing
+
+**[Enterprise Network Penetration Test](./pentesting/pentest-report.pdf)**
+
+A simulated full-scope penetration test of a fictional enterprise network,
+covering Active Directory exploitation, web application testing, and
+post-exploitation.
+
+- **Scope:** Windows & Linux systems, Active Directory, web applications
+- **Findings:** 13 total - 6 Critical, 5 High, 2 Medium (SQL injection, LFI, RCE,
+  broken access control, AD misconfigurations)
+- **Tools:** Nmap, Burp Suite, Metasploit, Hydra, Impacket, ffuf
+
+➡️ [View report](./pentesting/pentest-report.pdf)
+
 ## About Me
 
 Hi, I'm Nicholas Gionti. I'm an aspiring SOC analyst with a strong interest in
-detection engineering, log analysis, and blue team operations. My malware
-analysis work reflects that focus directly, and my pentest experience gives me
-insight into attacker behavior that I bring into building better detections.
+detection engineering, log analysis, and blue team operations. I hold CompTIA
+Security+ and Network+, completed the TryHackMe SOC Level 1 path, and rank in
+the top 3% on the platform. My SOC case work and malware analysis reflect that
+blue team focus directly, and my pentest experience gives me insight into
+attacker behavior that I bring into building better detections.
 
 **Connect:** [LinkedIn](https://www.linkedin.com/in/nicholas-gionti/)
