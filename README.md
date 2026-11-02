@@ -16,7 +16,7 @@ showed, and why it was closed or escalated.
 
 | Alert | Type | Verdict | Report |
 |---|---|---|---|
-| 8815 | Phishing (Amazon impersonation) | True Positive | [View report](./soc-case-reports/phishing/SOC-Simulator-Phishing-Alert-8815.pdf) |
+| 8815 | Phishing (Amazon impersonation) | True Positive | [View report](./soc-case-reports/SOC-Simulator-Phishing-Alert-8815.pdf) |
 
 *New investigations are added as I complete them.*
 
